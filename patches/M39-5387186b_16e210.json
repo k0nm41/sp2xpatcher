@@ -1,0 +1,28 @@
+[
+    {
+        "gameCode": "M39",
+        "version": "2014-06-19",
+        "lastUpdated": "2026-04-04 02:04:26",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Coin Unlock",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1343225,
+                "dllName": "popn21.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            },
+            {
+                "offset": 1343254,
+                "dllName": "popn21.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    }
+]

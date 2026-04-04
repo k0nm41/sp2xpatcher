@@ -1,0 +1,22 @@
+[
+    {
+        "gameCode": "L44",
+        "version": "2014-01-28",
+        "lastUpdated": "2026-04-04 02:04:26",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7997,
+                "dllName": "music_db.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "1F"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "gameCode": "M32",
+        "version": "2025-02-12",
+        "lastUpdated": "2026-04-04 02:04:26",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Prevent CACHE/ and TMP/ folders creation",
+        "description": "",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4361,
+                "dllName": "boot.dll",
+                "dataDisabled": "33D2",
+                "dataEnabled": "EB1F"
+            }
+        ]
+    }
+]

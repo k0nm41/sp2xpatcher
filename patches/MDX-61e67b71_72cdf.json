@@ -1,0 +1,72 @@
+[
+    {
+        "gameCode": "MDX",
+        "version": "2021-08-04",
+        "lastUpdated": "2026-04-04 02:04:26",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Screen Setting",
+        "description": "Changes resolution based on Sceen type",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "CRT 945 P3IO SD",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "00",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD 945 P3IO",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "01",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD HM64 P4IO SD",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "02",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "CRT ADE-6291 P3IO HD",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "03",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 P3IO HD (forced gold cab)",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "04",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 P4IO",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "05",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 BIO2",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "06",
+                    "offset": 413055
+                }
+            }
+        ]
+    }
+]

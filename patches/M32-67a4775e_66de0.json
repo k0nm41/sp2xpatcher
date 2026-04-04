@@ -1,0 +1,29 @@
+[
+    {
+        "gameCode": "M32",
+        "version": "2025-02-12",
+        "lastUpdated": "2026-04-04 02:04:26",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "60 FPS patch",
+        "description": "Prevents the game from locking to 58 FPS on Win 10/11",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 257853,
+                "dllName": "libshare-pj.dll",
+                "dataDisabled": "73",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 257905,
+                "dllName": "libshare-pj.dll",
+                "dataDisabled": "73",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
