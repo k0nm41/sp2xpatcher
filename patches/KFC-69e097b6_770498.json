@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2026-04-21",
-        "lastUpdated": "2026-04-24 19:30:26",
+        "lastUpdated": "2026-04-29 09:46:11",
         "source": "https://patcher.573.moe/"
     },
     {
@@ -195,7 +195,7 @@
                 "dataEnabled": "90E9"
             },
             {
-                "offset": 2934361,
+                "offset": 3592144,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
