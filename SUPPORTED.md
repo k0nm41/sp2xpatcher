@@ -225,6 +225,17 @@ Patches for which we don't know the corresponding game version.
 | LDJ-010 | bm2dx.dll | 2026-08-04 | [LDJ-6a68333c_b1c14c](patches/LDJ-6a68333c_b1c14c.json) |
 | LDJ-010 | bm2dx.dll | 2026-08-19 | [LDJ-6a713632_b1cccc](patches/LDJ-6a713632_b1cccc.json) |
 | LDJ-012 | bm2dx.dll | 2026-08-19 | [LDJ-6a713978_a4fd5c](patches/LDJ-6a713978_a4fd5c.json) |
+| LDJ-010 | bm2dx.dll | 2026-09-09 | [LDJ-6a8bafd1_b1ba0c](patches/LDJ-6a8bafd1_b1ba0c.json) |
+| LDJ-012 | bm2dx.dll | 2026-09-09 | [LDJ-6a8bb326_a4ea9c](patches/LDJ-6a8bb326_a4ea9c.json) |
+
+</details>
+
+<details><summary>beatmania IIDX 34 ZINRAI</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| LDJ-010 | bm2dx.dll | 2026-09-16 | [LDJ-6aa23d57_b02b3c](patches/LDJ-6aa23d57_b02b3c.json) |
+| LDJ-012 | bm2dx.dll | 2026-09-16 | [LDJ-6aa240fd_a35bdc](patches/LDJ-6aa240fd_a35bdc.json) |
 
 </details>
 
