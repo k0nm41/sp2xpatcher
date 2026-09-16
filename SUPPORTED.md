@@ -452,6 +452,16 @@ Patches for which we don't know the corresponding game version.
 
 </details>
 
+## Dance Evolution (DEA)
+
+<details><summary>Dance Evolution Arcade</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KDM | gamekdm.dll | 2016-07-12 | [KDM-5784d760_1d897b](patches/KDM-5784d760_1d897b.json) |
+
+</details>
+
 ## Dancerush Stardom (DRS)
 
 <details><summary>Dancerush Stardom</summary>

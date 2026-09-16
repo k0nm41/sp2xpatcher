@@ -1,0 +1,40 @@
+[
+    {
+        "gameCode": "KDM",
+        "version": "2016-07-12",
+        "lastUpdated": "2026-09-08 21:26:37",
+        "source": "https://patcher.573.moe/"
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "Freezes all countdown timers, such as the music select, difficulty select and entry flow timers.",
+        "gameCode": "KDM",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 335518,
+                "dllName": "gamekdm.dll",
+                "dataDisabled": "F30F11430C",
+                "dataEnabled": "9090909090"
+            },
+            {
+                "offset": 335654,
+                "dllName": "gamekdm.dll",
+                "dataDisabled": "F30F11430C",
+                "dataEnabled": "9090909090"
+            },
+            {
+                "offset": 506932,
+                "dllName": "gamekdm.dll",
+                "dataDisabled": "F30F1180E4000000",
+                "dataEnabled": "9090909090909090"
+            },
+            {
+                "offset": 507073,
+                "dllName": "gamekdm.dll",
+                "dataDisabled": "F30F1180E4000000",
+                "dataEnabled": "9090909090909090"
+            }
+        ]
+    }
+]
